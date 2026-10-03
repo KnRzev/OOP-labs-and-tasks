@@ -2,7 +2,7 @@ public class Bubble_sort {
     public static void main(String[] args) {
         int[] numbers = {1, 3, 5, 2, 4};
         for (int i = 0; i < numbers.length; i++){
-            System.out.println(numbers[i]);
+            System.out.print(numbers[i] + " ");
         }
         System.out.println('\n');
         for (int i = 0; i < numbers.length - 1; i++) {
@@ -15,7 +15,7 @@ public class Bubble_sort {
             }
         }
         for (int i = 0; i < numbers.length; i++){
-            System.out.println(numbers[i]);
+            System.out.print(numbers[i] + " ");
         }
         System.out.println('\n');
         }
